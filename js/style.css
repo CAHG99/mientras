@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-image: url(https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8);
+    color: #fff;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: rgba(05, 05, 05, 0.8);
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 5px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#cliente-lista {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #000;
+    color: #fff;
+    margin: 10px 0px 0px 10px;
+}
+
+button:hover{
+    background-color: #111;
+    cursor: pointer;
+}
