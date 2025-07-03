@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "admin",
+      "correo": "admin@email.com",
+      "contraseña": "1234",
+      "rol": "admin"
+    },
+    {
+      "id": "da22",
+      "users": [
+        {
+          "id": "8c1c",
+          "nombre": "usuario Post 2",
+          "correo": "usuario2@email.com",
+          "contraseña": "1234",
+          "rol": "usuario"
+        }
+      ]
+    },
+    {
+      "id": "8cdd",
+      "nombre": "usuario actualizado",
+      "correo": "usuario2@email.com",
+      "contraseña": "1234",
+      "rol": "usuario"
+    },
+    {
+      "id": "8cfh",
+      "nombre": "usuario Post 3",
+      "correo": "usuario2@email.com",
+      "contraseña": "1234",
+      "rol": "usuario"
+    }
+  ]
+}
